@@ -1,5 +1,6 @@
 certificate/readme-certificate.afdesign
 node_modules
+package-lock.json
 find-your-hat/node_modules
 find-your-hat/package-lock.json
 find-your-hat/package.json
