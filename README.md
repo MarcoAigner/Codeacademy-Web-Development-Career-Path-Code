@@ -10,6 +10,10 @@ Some projects were guided step-by-step, others provided only a solution to compa
 
 ## List of projects
 
+- <a href="#library">Build a Library</a>
+
+  Visualising inheritance among javascript-classes   
+
 - <a href="#chore-door">Chore-Door Game</a>
 
     Can you open all three doors without running into chore-bot before?
@@ -37,6 +41,8 @@ Some projects were guided step-by-step, others provided only a solution to compa
 
 
 ## Projects
+
+<h3 id="library">Build a Library</h3>
 
 <h3 id="chore-door">Chore-Door</h3>
 
