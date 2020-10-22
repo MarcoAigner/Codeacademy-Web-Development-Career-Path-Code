@@ -1,10 +1,10 @@
 # Codeacademy Web Development Path
 
-<div style="text-align: center"><img src="./certificate/readme-certificate.jpg" width="50%"></div>
+<div style="text-align: center"><img src="./certificate/readme-certificate.jpg" "></div>
 
-This repository contains projects that I built as I was following along the web development carreer-path by <a href="https://www.codecademy.com/" target="_blank">codeacademy.com</a>
+This repository contains projects that I built as I was following along the web development career-path by <a href="https://www.codecademy.com/" target="_blank">codeacademy.com</a>
 
-Code to start with was usually provided already so that student's could focus on applying new concepts.
+Code to start with was usually provided already so that students could focus on applying new concepts.
 
 Some projects were guided step-by-step, others provided only a solution to compare one's results with.
 
