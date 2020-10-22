@@ -1,6 +1,6 @@
 # Codeacademy Web Development Path
 
-<div style="text-align: center"><img src="./certificate/readme-certificate.jpg" width="50%"></div>
+<div style="text-align: center"><img src="./certificate/readme-certificate.jpg" "></div>
 
 This repository contains projects that I built as I was following along the web development carreer-path by <a href="https://www.codecademy.com/" target="_blank">codeacademy.com</a>
 
