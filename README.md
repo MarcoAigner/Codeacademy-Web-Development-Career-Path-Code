@@ -32,11 +32,15 @@ Some projects were guided step-by-step, others provided only a solution to compa
 
 - <a href="#find-your-hat">Find your Hat</a>
 
-   Terminal game using node.js and user prompts: Can you navigate the field and find your hat without falling into a hole?
+   Terminal game using node.js and user prompts: Can you `*` navigate the field `░` and find your hat `^` without falling into a hole `O`?
 
 - <a href="#lodash">Recreating the Lodash Library</a>
 
     Own implementation of some methods from the widely-popular <a href="https://lodash.com/" target="_blank">lodash.js library.</a>
+
+- <a href="#message-mix">Message Mix</a>
+
+    Learning javasscript cross-module communication using both the `module.exports` and the ES6 `export` syntax
 
 - <a href="#musicon">Musicon Instruments</a>
 
@@ -73,6 +77,8 @@ Some projects were guided step-by-step, others provided only a solution to compa
 <h3 id="find-your-hat">Find your Hat</h3>
 
 <h3 id="lodash">Recreating the Lodash Library</h3>
+
+<h3 id="message-mix">Message Mix</h3>
 
 <h3 id="musicon">Musicon Instruments</h3>
 
