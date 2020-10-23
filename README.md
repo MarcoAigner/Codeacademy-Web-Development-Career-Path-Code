@@ -40,7 +40,7 @@ Some projects were guided step-by-step, others provided only a solution to compa
 
 - <a href="#message-mixer">Message Mixer</a>
 
-    Learning javasscript cross-module communication using both the `module.exports` and the ES6 `export` syntax
+    Learning javascript cross-module communication using both the `module.exports` and the ES6 `export` syntax
 
 - <a href="#musicon">Musicon Instruments</a>
 
