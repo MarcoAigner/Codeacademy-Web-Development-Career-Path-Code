@@ -27,7 +27,6 @@ const getVenues = async () => {
     if (response.ok) {
       const jsonResponse = await response.json();
       const venues = jsonResponse.response.groups[0].items.map(item => item.venue);
-      console.log(venues);
       return venues;
     }
   } catch (error) {
@@ -35,8 +34,19 @@ const getVenues = async () => {
   }
 }
 
-const getForecast = () => {
+const getForecast = async () => {
+  const urlToFetch = `${weatherUrl}?q=${$input.val()}&APPID=${openWeatherKey}`;
+  
+  try {
+    const response = await fetch(urlToFetch);
 
+    if (response.ok) {
+      const jsonResponse = await response.json();
+      return jsonResponse;
+    }
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 
