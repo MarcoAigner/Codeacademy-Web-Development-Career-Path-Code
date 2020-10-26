@@ -40,9 +40,9 @@ Some projects were guided step-by-step, others challenged to work on an own solu
 
     Own implementation of some methods from the widely-popular <a href="https://lodash.com/" target="_blank">lodash.js library.</a>
 
-- <a href="#message-mix">Message Mix</a>
+- <a href="#message-mixer">Message Mixer</a>
 
-    Learning javasscript cross-module communication using both the `module.exports` and the ES6 `export` syntax
+    Learning javascript cross-module communication using both the `module.exports` and the ES6 `export` syntax
 
 - <a href="#musicon">Musicon Instruments</a>
 
@@ -83,7 +83,7 @@ Some projects were guided step-by-step, others challenged to work on an own solu
 
 <h3 id="lodash">Recreating the Lodash Library</h3>
 
-<h3 id="message-mix">Message Mix</h3>
+<h3 id="message-mixer">Message Mixer</h3>
 
 <h3 id="musicon">Musicon Instruments</h3>
 
