@@ -1,14 +1,16 @@
 # Codeacademy Web Development Path
 
+<br></br>
+
 <div style="text-align: center"><img src="./certificate/readme-certificate.jpg"></div>
 
 <br></br>
 
 This repository contains projects that I built as I was following along the web development career-path by <a href="https://www.codecademy.com/" target="_blank">codeacademy.com</a>
 
-Code to start with was usually provided already so that students could focus on applying new concepts.
+Most projects provided a preexisting codebase so that students could focus on applying new concepts.
 
-Some projects were guided step-by-step, others provided only a solution to compare one's results with.
+Some projects were guided step-by-step, others challenged to work on an own solution.
 
 <br></br>
 
@@ -58,6 +60,9 @@ Some projects were guided step-by-step, others provided only a solution to compa
 
     Fictional tea shop website to practise html and CSS basics.
 
+- <a href="#wanderlust">Wanderlust</a>
+
+    Using  Foursquare and OpenWeather APIs to deliver points-of-interest and current weather.
 
 <br></br>
 
@@ -87,4 +92,6 @@ Some projects were guided step-by-step, others provided only a solution to compa
 <h3 id="school-catalogue">School catalogue</h3>
 
 <h3 id="tea-cozy">Tea Cozy Homepage</h3>
+
+<h3 id ="wanderlust">Wanderlust</h3>
 
