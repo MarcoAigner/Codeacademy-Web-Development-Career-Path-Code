@@ -21,6 +21,14 @@ app.use('/api', apiRouter);
 
 // This conditional is here for testing purposes:
 if (!module.parent) { 
+
+
+app.use((err, req, res, next) => {
+  if(!err.status) {
+    err.status = 500;
+  }
+  res.status(err.status).send(err.message);
+});
   // Add your code to start the server listening at PORT below:
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
