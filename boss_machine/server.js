@@ -27,8 +27,10 @@ app.use((err, req, res, next) => {
   if(!err.status) {
     err.status = 500;
   }
+  console.log(`ERROR (${err.status}): ${err.message}`);
   res.status(err.status).send(err.message);
 });
+
   // Add your code to start the server listening at PORT below:
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);

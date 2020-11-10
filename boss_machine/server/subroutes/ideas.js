@@ -1,4 +1,5 @@
 const express = require('express');
+const checkMillionDollarIdea = require('../checkMillionDollarIdea.js');
 const ideasRouter = express.Router();
 const db = require('../db.js');
 
@@ -29,6 +30,9 @@ ideasRouter.get('/', (req, res, next) => {
 ideasRouter.get('/:id', (req, res, next) => {
     res.send(req.idea);
 });
+
+// POST: check if a new idea is valid and profitable
+ideasRouter.post('/', checkMillionDollarIdea);
 
 // POST a new minion
 ideasRouter.post('/', (req, res, next) => {
