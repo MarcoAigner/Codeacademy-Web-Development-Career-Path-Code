@@ -1,6 +1,8 @@
 const express = require('express');
+const { request } = require('../../../server.js');
 const minionsRouter = express.Router();
-const db = require('../db.js');
+const db = require('../../db.js');
+const workRouter = require('./work.js');
 
 // get all minions from the database and attach them to the request
 minionsRouter.all('*', (req, res, next) => {
@@ -21,6 +23,7 @@ minionsRouter.param('id', (req, res, next) => {
     
 });
 
+ minionsRouter.use('/:id/work', workRouter);
 
 // GET all minions from the database
 minionsRouter.get('/', (req, res, next) => {

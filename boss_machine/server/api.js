@@ -1,6 +1,6 @@
 const express = require('express');
 const apiRouter = express.Router();
-const minionsRouter = require('./subroutes/minions.js');
+const minionsRouter = require('./subroutes/minions/minions.js');
 const ideasRouter = require('./subroutes/ideas.js');
 const meetingsRouter = require('./subroutes/meetings.js');
 
